@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📬 小信封留言頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📬 寫封信給自己</h2>
+  <input type="text" id="from_name" placeholder="你的名字（可空）"><br>
+  <textarea id="message" placeholder="寫下你的訊息..."></textarea><br>
+  <button id="sendBtn">送出</button>
+  <div id="output"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
